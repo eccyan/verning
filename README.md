@@ -6,7 +6,7 @@ Versioning for methods, modules or classes
 
 ## Install
 ```sh
-gem install vernign
+gem install verning
 ```
 
 ## Reference
