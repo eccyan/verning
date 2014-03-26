@@ -42,7 +42,7 @@ RELEASE_DATE = Date.parse("2014-3-26")
 class Foo; end
 class FooFeature; end
 
-versioned_method Foo, FooFeature do
+versioned_module Foo, FooFeature do
   Date.today >= RELEASE_DATE
 end
 ```
