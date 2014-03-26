@@ -2,7 +2,7 @@ require 'bundler/setup'
 Bundler.setup
 
 require 'pry'
-require 'versioned'
+require 'verning'
 
 RSpec.configure do |config|
 end

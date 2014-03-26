@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    versioned (0.0.1)
+    verning (0.0.1)
       activesupport
 
 GEM
@@ -46,4 +46,4 @@ DEPENDENCIES
   pry
   rake
   rspec
-  versioned!
+  verning!

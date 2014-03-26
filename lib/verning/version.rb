@@ -1,3 +1,3 @@
-module Versioned
+module Verning
   VERSION = "0.0.1"
 end

@@ -1,1 +1,1 @@
-require "versioned/core_ext/module/versioned_method"
+require "verning/core_ext/module/versioned_method"

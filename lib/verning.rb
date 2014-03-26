@@ -1,6 +1,6 @@
-require "versioned/version"
-require "versioned/core_ext"
+require "verning/version"
+require "verning/core_ext"
 
-module Versioned
+module Verning
   # Your code goes here...
 end

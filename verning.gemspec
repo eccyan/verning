@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'versioned/version'
+require 'verning/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "verning"
-  spec.version       = Versioned::VERSION
+  spec.version       = Verning::VERSION
   spec.authors       = ["eccyan"]
   spec.email         = ["g00.eccyan@gmail.com"]
   spec.description   = %q{versioning for methods, modules or classes}

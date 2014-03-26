@@ -1,4 +1,4 @@
-Versioned 
+Verning
 =========
 Versioning for methods, modules or classes
 
@@ -6,14 +6,14 @@ Versioning for methods, modules or classes
 
 ## Install
 ```sh
-gem install versioned
+gem install vernign
 ```
 
 ## Reference
 ### versioned_method
 Select a method that matches the conditions given with block.
 ```ruby
-require "versioned"
+require "verning"
 
 class Klass
   RELEASE_DATE = Date.parse("2014-3-26")
@@ -33,6 +33,6 @@ end
 ```
 
 # License
-Versioned is released under the MIT license:
+Verning is released under the MIT license:
 
 www.opensource.org/licenses/MIT
