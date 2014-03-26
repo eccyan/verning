@@ -32,6 +32,21 @@ class Klass
 end
 ```
 
+### versioned_module/versioned_class
+Select a module/class that matches the conditions given with block.
+```ruby
+require "verning"
+
+RELEASE_DATE = Date.parse("2014-3-26")
+
+class Foo; end
+class FooFeature; end
+
+versioned_method Foo, FooFeature do
+  Date.today >= RELEASE_DATE
+end
+```
+
 # License
 Verning is released under the MIT license:
 
