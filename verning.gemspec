@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["g00.eccyan@gmail.com"]
   spec.description   = %q{versioning for methods, modules or classes}
   spec.summary       = %q{versioning helper}
-  spec.homepage      = "https://github.com/eccyan/versioned"
+  spec.homepage      = "https://github.com/eccyan/verning"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
