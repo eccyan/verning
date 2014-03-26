@@ -2,7 +2,7 @@ Verning
 =========
 Versioning for methods, modules or classes
 
-[![Build Status](https://travis-ci.org/eccyan/versioned.svg?branch=master)](https://travis-ci.org/eccyan/versioned)
+[![Build Status](https://travis-ci.org/eccyan/verning.svg?branch=master)](https://travis-ci.org/eccyan/verning)
 
 ## Install
 ```sh
