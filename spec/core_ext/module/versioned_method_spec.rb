@@ -1,7 +1,5 @@
 require 'spec_helper'
 
-require 'versioned/core_ext/module/versioned_method'
-
 describe Module do
   class TestClass
     def upped; :upped end
