@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'versioned/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "versioned"
+  spec.name          = "verning"
   spec.version       = Versioned::VERSION
   spec.authors       = ["eccyan"]
   spec.email         = ["g00.eccyan@gmail.com"]
