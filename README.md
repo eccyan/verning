@@ -2,6 +2,7 @@ Verning
 =========
 Versioning for methods, modules or classes
 
+[![Coverage Status](https://coveralls.io/repos/eccyan/verning/badge.png)](https://coveralls.io/r/eccyan/verning)
 [![Build Status](https://travis-ci.org/eccyan/verning.svg?branch=master)](https://travis-ci.org/eccyan/verning)
 
 ## Install
