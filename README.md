@@ -11,6 +11,19 @@ Versioning for methods, modules or classes
 gem install verning
 ```
 
+## Releaser
+_UNDER DEVELOPMENT_
+Releaser release if the conditions are releaseable.
+The conditions defined with YAML.
+
+```yaml
+campaing1:
+  date:
+    start: "2014-02-07"
+    end: "2014-02-07"
+```
+
+
 ## Reference
 ### versioned_method
 Select a method that matches the conditions given with block.
