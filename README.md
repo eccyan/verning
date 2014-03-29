@@ -12,7 +12,8 @@ gem install verning
 ```
 
 ## Releaser
-_UNDER DEVELOPMENT_
+__UNDER DEVELOPMENT__
+
 Releaser release if the conditions are releaseable.
 The conditions defined with YAML.
 
