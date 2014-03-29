@@ -11,20 +11,6 @@ Versioning for methods, modules or classes
 gem install verning
 ```
 
-## Releaser
-__UNDER DEVELOPMENT__
-
-Releaser release if the conditions are releaseable.
-The conditions defined with YAML.
-
-```yaml
-campaing1:
-  date:
-    start: "2014-02-07"
-    end: "2014-02-07"
-```
-
-
 ## Reference
 ### versioned_method
 Select a method that matches the conditions given with block.
@@ -60,6 +46,35 @@ class FooFeature; end
 
 versioned_module Foo, FooFeature do
   Date.today >= RELEASE_DATE
+end
+```
+
+## Releaser
+
+Releaser release if the conditions are releaseable.
+The conditions defined with YAML.
+
+```yaml
+super_pop_campaing:
+  date:
+    start: "2014-02-07"
+    end: "2014-02-07"
+```
+
+Use this like :
+
+```ruby
+require "verning"
+
+# Load releaser from yaml
+Verning.releaser = YAML.file_load "releaser.yml"
+
+class Klass
+  def :foo; end
+  def :foo_feature; end
+
+  # set release name
+  versioned_method :foo, :foo_feature, :super_pop_campaing
 end
 ```
 

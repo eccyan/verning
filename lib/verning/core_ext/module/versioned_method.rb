@@ -6,9 +6,15 @@ class Module
   #     Time.now > "2013-04-01"
   #   end
   #
-  def versioned_method(downed, upped, key = nil)
-    return if block_given? && yield.!
-
-    alias_method downed, upped
+  # Select a method from release name
+  #
+  #   versioned_method :downed, :upped, :release_name
+  #
+  def versioned_method(downed, upped, release_name = nil)
+    if block_given? 
+      alias_method downed, upped if yield
+    else
+      alias_method downed, upped if Verning.releaser.send("#{release_name}_releaseable?")
+    end
   end
 end
